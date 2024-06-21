@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Montserrat';
+    box-sizing:border-box ; 
+    padding: 0%;
+    margin: 0%;
+}
+#barra-navegacion{
+    background-color: rgba(255,255,255,1);
+    height: 95px;
+    width: 1440px;
+    display: flex;
+    margin-left: 0px;
+    position: fixed;
+}
+
+
+#barra-navegacion p{
+    color: black;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 27px;
+    margin-left: 136px;
+}
+
+#barra-navegacion button{
+    height: 52px;
+    width: 137px;
+    margin-top: 16px;
+    margin-right: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+#btn-join-us{
+    background-color: rgba(150, 187, 124, 1);
+    color:white;
+    text-transform: uppercase;
+    border: none;
+}
+
+#btn-login{
+    background-color: white;
+    color: rgba(150, 187, 124, 1);
+    margin-left: 515px;
+    text-transform: capitalize;
+    border: none;
+}
+
+#tarjeta-presentacion {
+    background-color: rgba(221,244,255,1);
+    height: 777px;
+    width: 1440px;
+    display: flex;
+}
+
+#presentacion{
+    height: 777px;
+    margin-left: 130px;  
+    width: 720px; 
+    font-weight: 700;
+    
+}
+
+#presentacion h5{
+    height: 24px;
+    color: rgba(150, 187, 124, 1);
+    padding-top: 250px;
+    font-size: 16px;
+    margin: 0px;
+}
+
+#presentacion h2{
+    height: 160px;
+    font-size: 58px;
+    text-align: start;
+    line-height: 80px;
+    letter-spacing: -0.5px;
+}
+
+#presentacion h4{
+    color: rgba(115, 115, 115, 1);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    
+}
+
+#presentacion button{
+    height: 52px;
+    width: 193px;
+    border-radius: 5px;
+    padding: 15px,40px,15px,40px;
+    margin-top: 30px;
+}
+
+#btn-get-quote-now{
+    background-color: rgba(150, 187, 124, 1);
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    border: 1px rgba(150, 187, 124, 1) solid;
+}
+
+#btn-learn-more{
+    background-color: rgba(221,244,255,1);
+    color: rgba(150, 187, 124, 1);
+    border: 1px rgba(150, 187, 124, 1) solid;
+}
+
+#presentacion-imagenes{
+    background-image: url("../img/Girl.png");
+    background-size: 450px;
+    background-repeat: space;
+    background-position: bottom;
+    height: 777px; 
+    width: 720px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#img-singles{
+    height: 81px;
+    width: 162px;
+    position: relative;
+    top: 440px;
+    right: 40px;
+}
+
+#img-Latest_Scores{
+    height: 149px;
+    width: 218px;
+    position: relative;
+    top: 275px;
+    left: 40px;
+
+    
+}
+
+#img-global_statiscs{
+    height: 183px;
+    width: 196px;
+    position: relative;
+    top: 150px;
+    left: 235px;
+}
+
+#tarjetas-cantidades{
+    height: 264px;
+    width: 1440px;
+    background-color: rgba(255,255,255,1);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding: 75px;
+}
+
+#cantidades{  
+    height: 164px;
+    width: 300px;
+}
+   
+#subtitulo-cantidades{
+    color: rgb(150, 187, 124); 
+    font-size: 58px;
+    font-weight: 700;
+    
+}
+
+#texto-cantidades{
+    color: black;
+    font-size: 16px;
+    font-weight: 700; 
+}
+
+
+#tarjetas-servicios{
+    background-color:rgba(255, 242, 243, 1);
+    color: rgba(37, 43, 66, 1);
+    height: 718px;
+    width: 1440px;
+    margin: 50px;
+}
+
+#tarjetas-servicios h2{
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 140px;
+    margin-left: 160px;
+}
+
+#servicios{
+  
+    height: 359px;
+    width: 1440px;
+    display: flex;
+    margin-right: 45px;
+    margin-left: 120px;
+}
+
+#servicios2{
+    height: 268px;
+    width: 328px;
+    background-color: white;
+    margin-left: 45px;
+}
+
+#servicios2 h5{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+#servicios2 p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+hr{
+    height: 2px;
+    width: 50px;
+    border:2px #e74040 solid;
+    margin-left: 15px;
+}
+
+#servicios-icon{
+    width: fit-content;
+    padding: 3px;
+    border-radius: 100%;
+    background-color:rgba(255, 242, 243, 1);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#servicios-icon i{
+    height: 32px;
+    width: 32px;
+    color: #e74040;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+footer {
+    height: 74px;
+    width: 1440px;
+    display: flex;
+}
+
+footer h6{
+    color: rgba(115, 115, 115, 1);
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 180px;
+    padding-right: 480px;
+
+}
+
+footer i{
+    height: 24px;
+    width: 24px;
+    color: rgb(150, 187, 124); 
+    padding-top: 30px;
+    padding-left: 20px;
+    
+}
