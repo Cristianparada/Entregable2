@@ -193,6 +193,7 @@
     font-weight: 700;
     padding-top: 140px;
     margin-left: 160px;
+    margin-bottom: 40px;
 }
 
 #servicios{
@@ -221,6 +222,7 @@
     font-size: 14px;
     font-weight: 400;
     margin-left: 15px;
+    margin-bottom: 40px;
 }
 
 hr{
@@ -228,6 +230,7 @@ hr{
     width: 50px;
     border:2px #e74040 solid;
     margin-left: 15px;
+    margin-bottom: 40px;
 }
 
 #servicios-icon{
@@ -237,6 +240,7 @@ hr{
     background-color:rgba(255, 242, 243, 1);
     margin-top: 20px;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 #servicios-icon i{
@@ -245,6 +249,13 @@ hr{
     color: #e74040;
     margin-top: 20px;
     margin-left: 20px;
+    
+}
+
+.btn-whatsapp{
+    position: fixed;
+    bottom: 190px;
+    right: 270px
 }
 
 footer {
