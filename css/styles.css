@@ -241,6 +241,8 @@ hr{
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
+    text-decoration: none;
+    text-transform: none;
 }
 
 #servicios-icon i{
@@ -249,7 +251,12 @@ hr{
     color: #e74040;
     margin-top: 20px;
     margin-left: 20px;
-    
+    text-decoration: none;
+    text-transform: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 .btn-whatsapp{
